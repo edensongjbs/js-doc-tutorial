@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: calculator.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,57 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: calculator.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** 
+ * Calculator Module
+ * @module calculator
+ */
 
+ /**
+  * Adds two numbers
+  * @param {number} x - First Number
+  * @param {number} y - First Number
+  * @returns {number} - Sum of x and y
+  */
 
-    <h3> </h3>
+  exports.add = (x, y) => x+y
 
+  /**
+  * Subtracts two numbers
+  * @param {number} x - First Number
+  * @param {number} y - First Number
+  * @returns {number} - Difference of x and y
+  */
+ exports.subtract = (x, y) => x-y
 
+  /**
+  * Multiplies two numbers
+  * @param {number} x - First Number
+  * @param {number} y - First Number
+  * @returns {number} - Product of x and y
+  */
+exports.mult = (x, y) => x*y
 
+  /**
+  * Divides two numbers
+  * @param {number} x - First Number
+  * @param {number} y - First Number
+  * @returns {number} - Quotient of x and y
+  */
 
+exports.divide = (x, y) => x/y
 
-
-
-
-
-
-    
-
-
-
-
-
+</code></pre>
+        </article>
+    </section>
 
 
 

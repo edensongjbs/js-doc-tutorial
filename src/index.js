@@ -1,5 +1,8 @@
 // @ts-check
 /**
+ * See {@tutorial program-tutorial} 
+ */
+/**
  * Student Name
  * @type {string}
  */
@@ -72,5 +75,26 @@ console.log(calculateTax(100, 0.1))
          */
         this.age = personInfo.age
      }
-
+     /**
+      * @property {Function} greet A greeting with the name and age
+      * @returns {void}
+      */
+     greet() {
+         console.log(`Hello my name is ${this.name} and I am ${this.age} years old!`)
+     }
  }
+
+ /**
+  * A person
+  * See {@link Person}
+  */
+ const person = new Person({
+     name: 'James',
+     age: 37
+ })
+
+ person.greet()
+
+ const { add, subtract, mult, divide } = require('./calculator')
+
+ console.log(add(20, 50))
