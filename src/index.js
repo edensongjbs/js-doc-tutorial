@@ -1,6 +1,9 @@
 // @ts-check
 /**
- * See {@tutorial program-tutorial} 
+ * @file index.js is the root file
+ * @author James Byron Schoen
+ * @see <a href="http://firecataudio.com">FireCatAudio</a>
+ * See @tutorial program-tutorial} 
  */
 /**
  * Student Name
